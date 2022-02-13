@@ -8,5 +8,3 @@ elif year_leap_four_hundred != 0:
     print("Not leap year.")
 elif year_one_hundred != 0:
     print("Not leap year.")
-else:
-    print("Leap year.")
