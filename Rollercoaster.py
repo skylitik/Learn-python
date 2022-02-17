@@ -17,6 +17,5 @@ if height >= 120:
     if need_photo == "y":
         bill += 3
     print(f"You final bill is ${bill}")
-
 else:
     print("Sorry, you have to grow tailer before you can ride.")
