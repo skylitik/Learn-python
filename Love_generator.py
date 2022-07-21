@@ -21,15 +21,14 @@ for key2 in name_sum:
     if str(key2) in d:
         count2 +=1
 
-summary = str(count1) + str(count2)  
-total = int(summary)
+total = int(str(count1) + str(count2))  
 
-if total <= 10 or total >=90:
+
+if total < 10 or total > 90:
     print(f"Your score is %{total}, you go together like coke and mentos.")
-elif total >=40 and total <= 50:
+elif total >= 40 and total <= 50:
     print(f"Your score is %{total}, you are alright together.")
 else:
-    print("")
     print(f"Your score is %{total}")
     
 
