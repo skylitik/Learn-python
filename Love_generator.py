@@ -25,11 +25,12 @@ summary = str(count1) + str(count2)
 total = int(summary)
 
 if total <= 10 or total >=90:
-    print(f"Your score is {total}, you go together like coke and mentos.")
+    print(f"Your score is %{total}, you go together like coke and mentos.")
 elif total >=40 and total <= 50:
-    print(f"Your score is {total}, you are alright together.")
+    print(f"Your score is %{total}, you are alright together.")
 else:
-    print(f"Your score is {total}")
+    print("")
+    print(f"Your score is %{total}")
     
 
 
