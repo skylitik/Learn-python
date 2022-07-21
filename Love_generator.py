@@ -41,7 +41,7 @@ print('''
         gs&kisses&h        es&hugs&kisse                           u
         ugs&kisses&hugs&kisses&hugs&kisses&hugs&kisses&hugs&kisses&h ''')
 
-print("Welcome to the Love Calculator!")
+print("\n\t\t\tWelcome to the Love Calculator!")
 
 
 name1 = input("What is your name? \n")
