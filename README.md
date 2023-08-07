@@ -1,3 +1,3 @@
 # Lessons-python
 
-#Welcome to the practising programs in Python language
+#Programs in Python language
