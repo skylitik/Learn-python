@@ -9,6 +9,6 @@ names = names_string.split(", ")
 
 
 names_len = len(names)
-names_rand = random.randint(0, names_len)
-chart = str(names[names_rand])
+names_rand = random.randint(0, names_len -1)
+chart = names[names_rand]
 print(f"{chart} is going to buy the meal today!")
