@@ -28,23 +28,26 @@ scissors = '''
 #Write your code below this line 👇
 import random
 user_select = int(input("Choose youre weapon: 1 - Rock, 2 - Paper, 3 - Scissors "))
+if user_select >=4 or user_select < 0:
+    print("Invalid number")
+else:    
+    list_choose =[rock, paper, scissors]
 
-list_choose =[rock, paper, scissors]
-usr_list = list_choose[user_select -1]
-print(f"Player: {usr_list}")
+    usr_list = list_choose[user_select -1]
+    print(f"Player: {usr_list}")
 
-comp_choose = random.choice(list_choose)
-print(f"Computer: {str(comp_choose)}")
+    comp_choose = random.choice(list_choose)
+    print(f"Computer: {str(comp_choose)}")
 
-if usr_list == comp_choose:
-    print("Deuce")
-elif usr_list[2] == comp_choose[1]:
-    print("You Won!")
-elif usr_list[0] == comp_choose[2]:
-    print("You Won!")  
-elif usr_list[1] == comp_choose[0]:
-    print("You Won!")      
-else:
-    print("You Loose!")
+    if usr_list == comp_choose:
+        print("Deuce")
+    elif usr_list[2] == comp_choose[1]:
+        print("You Won!")
+    elif usr_list[0] == comp_choose[2]:
+        print("You Won!")  
+    elif usr_list[1] == comp_choose[0]:
+        print("You Won!")      
+    else:
+        print("You Loose!")
 
-            
+                
